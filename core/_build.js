@@ -3,7 +3,7 @@ import {} from "dotenv/config";
 import { writeFileSync } from "fs";
 import { resolve as resolvePath } from "path";
 import logger from "./var/modules/logger.js";
-import login from "daiki-fca";
+import login from "rapido-fca";
 import startServer from "./dashboard/server/app.js";
 import handleListen from "./handlers/listen.js";
 import environments from "./var/modules/environments.get.js";
